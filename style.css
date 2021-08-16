@@ -145,9 +145,10 @@ header a{
   justify-content: space-between;
   align-items: center;
 }
+
 .menu{
   font-size: 16px;
-  max-width: 590px;
+  max-width: 1000px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -3061,7 +3062,7 @@ footer{
   }
   .menu {
     font-size: 15px;
-    max-width: 520px;
+    max-width: 890px;
   }
   .contacts{
     max-width: 360px;
@@ -3218,6 +3219,13 @@ footer{
 .questions__block__form__input ,.questions__block__form__textarea{
   width: 300px;
 }
+.menu{
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+header a{
+  margin: 10px 0;
+}
 }
 
 @media (max-width: 992px)
@@ -3229,6 +3237,10 @@ footer{
   }
   .menu{
     margin: 30px 0;
+    flex-wrap: wrap;
+  }
+  header a{
+    margin: 10px 0;
   }
 /* промо */
 .logo-title{
